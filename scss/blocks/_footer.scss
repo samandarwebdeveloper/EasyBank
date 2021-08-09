@@ -1,0 +1,55 @@
+// ========SITE FOOTER=======================
+.site-footer {
+    background-color: #2d314d;
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.logo-box {
+
+}
+.footer__smlinks {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.smlink {
+    display: block;
+    color: #fff;
+}
+.smlink:hover {
+    color: #30C88F;
+}
+.footer__list {
+    @include list-unstyled;
+    font-size: 15px;
+    line-height: 26px;
+}
+.footer__item {
+    margin-bottom: 8px;
+}
+.footer__link {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.2s;
+}
+.footer__link:hover {
+    color: #30C88F;
+}
+.footer__end-box {
+    margin-left: 50px;
+    text-align: right;
+}
+.site__button {
+
+}
+.end-box__text {
+    margin-top: 32px;
+    font-size: 15px;
+    color: rgb(117, 117, 117);
+}

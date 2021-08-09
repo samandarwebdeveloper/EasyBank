@@ -1,0 +1,10 @@
+@mixin list-unstyled {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+@mixin hero-background {
+  background-image: url('../image/hero-bg-desktop.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+}

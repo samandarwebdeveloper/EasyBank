@@ -1,0 +1,15 @@
+// =======SITE BUTTON========================
+.site__button {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 33px;
+    border-radius: 50px;
+    color: #fff;
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.site__button:hover {
+    opacity: 0.6;
+}

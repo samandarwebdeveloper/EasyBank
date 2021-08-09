@@ -1,0 +1,47 @@
+// =======ABOUT SECTION======================
+.about-section {
+    background-color: #F4F5F7;
+    padding-top: 90px;
+    position: relative;
+    margin-top: -150px;
+    z-index: 1;
+}
+.about-section__lead {
+    font-size: 40px;
+    line-height: 64px;
+    font-weight: normal;
+    color:#2d314d;
+    margin: 0;
+}
+.about-section__text {
+    font-size: 18px;
+    line-height: 28px;
+    width: 635px;
+    margin-top: 16px;
+    color: #9597a5
+}
+.about-section__list {
+    @include list-unstyled;
+    display: flex;
+    margin-top: 70px;
+}
+.about-section__item {
+
+}
+.about-section__item ~ .about-section__item {
+    margin-left: 30px;
+}
+.about-section__image {
+
+}
+.about-section__item-lead {
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2d314d;
+}
+.about-section__item-text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #9597a5;
+}

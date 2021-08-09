@@ -1,0 +1,47 @@
+// ==========SITE HERO SECTION=====================
+.site-main {
+
+}
+.site-wrapper__hero {
+    background-color: #f2f2f2;
+    
+}
+.container {
+
+}
+.hero__section {
+    display: flex;
+    @include hero-background;
+    justify-content: space-between;
+}
+.left__hero-section  {
+    width: 447px;
+    margin-top: 250px;
+}
+.hero__lead {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    margin: 0;
+    width: 100%;
+    letter-spacing: -1px;
+    border: none;
+}
+.hero__text {
+    font-size: 18px;
+    line-height: 28px;
+    color: #9597a5;
+
+}
+.right__hero-section {
+    margin: 0;
+    padding: 0;
+}
+.hero__image {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}

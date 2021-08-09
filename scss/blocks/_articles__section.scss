@@ -1,0 +1,56 @@
+// =========ARTICLES SECTION======================
+.articles__section {
+    padding-top: 80px;
+    background-color: #f2f2f2;
+    padding-bottom: 80px;
+}
+.articles__lead {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 64px;
+    margin: 0;
+}
+.articles__list {
+    @include list-unstyled;
+    margin-top: 40px;
+    display: flex;
+}
+.articles__item {
+    width: 255px;
+    background-color: #fff;
+}
+.articles__item ~ .articles__item {
+    margin-left: 30px;
+}
+.articles__image {
+
+}
+.articles__span {
+    display: block;
+    font-size: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: 25px;
+}
+.articles__link {
+    display: block;
+    text-decoration: none;
+    color: #2d314d;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 25px;
+    width: 80%;
+    transition: all 0.3s;
+}
+.articles__link:hover {
+    color: #30C88F;
+}
+.articles__text {
+    font-size: 13px;
+    line-height: 18px;
+    color: #9597a5;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
