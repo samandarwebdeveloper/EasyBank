@@ -66,6 +66,12 @@
         width: 70%;
     }
 }
+@include breakpoint-down (768px) {
+    .about-section {
+        margin-top: 0;
+        
+    }
+}
 @include breakpoint-down (425px) {
     .about-section {
         margin-top: 0;

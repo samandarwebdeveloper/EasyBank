@@ -69,6 +69,22 @@
         width: 100%;
     }
 }
+@include breakpoint-down (768px) {
+    .hero__section {
+        padding-bottom: 20px;
+    }
+    .hero__image {
+        width: 100%;
+    }
+    .left__hero-section {
+        padding-left: 4%;
+        width: 80%;
+    }
+    .hero__lead {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
 @include breakpoint-down (425px) {
     .hero__section {
         flex-direction: column-reverse;
@@ -85,8 +101,8 @@
         width: 95%;
         margin-top: 60px;
         text-align: center;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .hero__section {
         width: 100%;

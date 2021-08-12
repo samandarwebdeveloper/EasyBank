@@ -68,6 +68,12 @@
         display: block;
     }
 }
+@include breakpoint-down (375px) {
+    .site__header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
 @include breakpoint-down (300px) {
     .site__header {
         padding-left: 0;
