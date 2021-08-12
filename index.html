@@ -11,10 +11,10 @@
     <header class="header">
         <div class="container">
             <div class="site__header">
-                <a class="site__logo-link" href="index.html">
+                <a class="site__logo-link" href="index.html" title="EasyBank">
                     <img class="site__logo-image" src="./image/logo.png" alt="site logo" width="139" height="20">
                 </a>
-                <nav class="site__navbar">
+                <nav class="site__navbar site__navbar--js">
                     <ul class=navbar__list>
                         <li class="navbar__item">
                             <a class="navbar__link" href="#home">
@@ -43,10 +43,12 @@
                         </li>
                     </ul>
                 </nav>
-                <button class="site__button">
+                <button class="site__button header-button">
                     Request Invite
                 </button>
+                <button class="site-header__hamburger"><img src="./image/toggler-open.svg" alt="hamburger button" aria-hidden="true"></button>
             </div>
+            
         </div>
     </header>
     <main class="site-main">
@@ -61,6 +63,7 @@
                     </div>
                     <div class="right__hero-section">
                         <img class="hero__image" src="./image/hero-phones-desktop.png" alt="hero image">
+                        <img class="hero__image-mobile" src="./image/hero-phones-mobile.png" alt="mobile hero image">
                     </div>
                 </div>
             </div>
@@ -192,6 +195,6 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> 
 </body>
 </html>
