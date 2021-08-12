@@ -12,6 +12,7 @@
 }
 .articles__list {
     @include list-unstyled;
+    width: 100%;
     margin-top: 40px;
     display: flex;
 }
@@ -84,12 +85,8 @@
     
 }
 @include breakpoint-up (1000px) {
-    .articles__section {
-        padding-left: 2%;
-    }
     .articles__list {
         width: 100%;
-        flex-wrap: wrap;
         justify-content: center;
     }
     .articles__item {

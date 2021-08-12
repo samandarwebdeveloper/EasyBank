@@ -702,6 +702,7 @@ body {
   position: relative;
   margin-top: -150px;
   z-index: 1;
+  padding-bottom: 20px;
 }
 
 .about-section__lead {
@@ -846,6 +847,7 @@ body {
   padding: 0;
   margin: 0;
   list-style: none;
+  width: 100%;
   margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -932,13 +934,8 @@ body {
 }
 
 @media only screen and (min-width: 1000px) {
-  .articles__section {
-    padding-left: 2%;
-  }
   .articles__list {
     width: 100%;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
