@@ -83,6 +83,27 @@
     }
     
 }
+@include breakpoint-up (1000px) {
+    .articles__section {
+        padding-left: 2%;
+    }
+    .articles__list {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .articles__item {
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    .articles__item ~ .articles__item {
+        margin-left: 0;
+    }
+    .articles__image {
+        width: 100%;
+    }
+    
+}
 @include breakpoint-down (425px) {
     .articles__section {
         padding-left: 0;
