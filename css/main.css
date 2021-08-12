@@ -475,7 +475,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 425px) {
   .site__header {
     padding-left: 10px;
     padding-right: 10px;
@@ -660,7 +660,7 @@ body {
   }
   .left__hero-section {
     width: 95%;
-    margin-top: 60px;
+    margin-top: 20px;
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
@@ -799,6 +799,7 @@ body {
 @media only screen and (max-width: 768px) {
   .about-section {
     margin-top: 0;
+    padding-top: 40px;
   }
 }
 
@@ -806,7 +807,7 @@ body {
   .about-section {
     margin-top: 0;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-left: 0;
   }
   .about-section__lead {
